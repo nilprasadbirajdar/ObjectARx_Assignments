@@ -13,8 +13,8 @@ This ObjectARX application defines a custom command, "AddCommand," that displays
    - Prints a message to the AutoCAD command line, indicating that the application has been loaded.
  
 3. **Register New Modal Command:**
-   - Registers a new modal command named "MYCOMMAND" in the "MyGroup" group.
-   - Associates the command with the `MyCommand` function in the `CProject3App` class.
+   - Registers a new modal command named "AddCommand" in the "MyGroup" group.
+   - Associates the command with the `AddCommand` function in the `CProject3App` class.
  
 ## Custom Command - MyCommand
  
