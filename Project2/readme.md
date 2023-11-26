@@ -32,7 +32,7 @@ This AutoCAD ObjectARX application is for loading and unloading of a ObjectARX d
    - Browse and load the compiled ObjectARX DLL (debug version) into AutoCAD.
  
 3. **Run Custom Command:**
-   - In AutoCAD, enter the custom command "MYCOMMAND" in the AutoCAD command line.
+   - In AutoCAD, enter the custom command "AddCommand" in the AutoCAD command line.
    - The command will print the message "Hello in the World of AutoCAD."
  
 4. **Unload Feature:**
