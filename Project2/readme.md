@@ -33,7 +33,7 @@ This AutoCAD ObjectARX application is for loading and unloading of a ObjectARX d
  
 3. **Run Custom Command:**
    - In AutoCAD, enter the custom command "AddCommand" in the AutoCAD command line.
-   - The command will print the message "Hello in the World of AutoCAD."
+   - The command will print the message "Welcome in the World of AutoCAD."
  
 4. **Unload Feature:**
    - After using the custom command, unload the feature using the "Unload" command in the Appload window or the "NETUNLOAD" command in the AutoCAD command line.
