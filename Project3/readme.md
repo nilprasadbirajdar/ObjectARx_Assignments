@@ -2,7 +2,7 @@
  
 ## Overview
  
-This ObjectARX application defines a custom command, "MYCOMMAND," that displays the message "Hello <Name> in the world of AutoCAD" when the user enters the command in the AutoCAD command line.
+This ObjectARX application defines a custom command, "AddCommand," that displays the message "Welcome in the world of AutoCAD" when the user enters the command in the AutoCAD command line.
  
 ## Initialization
  
@@ -18,7 +18,7 @@ This ObjectARX application defines a custom command, "MYCOMMAND," that displays 
  
 ## Custom Command - MyCommand
  
-The `MyCommand` function defines the behavior of the custom command "MYCOMMAND." When executed, it prints the message "Hello ROHIT in the World of AutoCAD" to the AutoCAD command line.
+The `addCommand` function defines the behavior of the custom command "AddCommand." When executed, it prints the message "Welcome in the World of AutoCAD" to the AutoCAD command line.
  
 ## Unload
  
@@ -32,7 +32,7 @@ The `MyCommand` function defines the behavior of the custom command "MYCOMMAND."
    - Build the project and load the resulting DLL in AutoCAD.
  
 2. **Run the Command:**
-   - In AutoCAD, enter the custom command "MYCOMMAND" in the AutoCAD command line.
+   - In AutoCAD, enter the custom command "AddCommand" in the AutoCAD command line.
  
 3. **View Results:**
-   - The command will print the message "Hello NILPRASAD in the World of AutoCAD" to the AutoCAD command line.
+   - The command will print the message "Welcome in the World of AutoCAD" to the AutoCAD command line.
